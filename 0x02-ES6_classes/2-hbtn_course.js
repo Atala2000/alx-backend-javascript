@@ -6,7 +6,7 @@ export default class HolbertonCourse {
       this._name = name;
     }
     if (typeof length !== 'number') {
-      throw new TypeError('Length must be a string');
+      throw new TypeError('Length must be a number');
     } else {
       this._length = length;
     }
